@@ -4,7 +4,8 @@ public class Corrida {
 	String autodromo;
 	int voltas;
 	String listarDados;
-	
+	String vencedor;
+        
 	public String listarDados(){
 		int cont=1;
 		while(voltas != 0){
